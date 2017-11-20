@@ -1,0 +1,28 @@
+{
+  "name": "hackjam-reason-react",
+  "private": true,
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "prepare": "npm link bs-platform"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bs-director": "^0.0.4",
+    "bulma": "^0.5.3",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "reason-scripts": "^0.7.0"
+  },
+  "devDependencies": {
+    "bs-platform": "^2.0.0",
+    "reason-react": ">=0.2.1"
+  }
+}
