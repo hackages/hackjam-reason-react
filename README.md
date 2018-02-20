@@ -38,8 +38,8 @@ e.g.:  
 ```
 type actions = 
    | Click
-   | Send string
-   | Send string int;
+   | Send(string)
+   | Send(string, int);
 ```
 Note: You will have to use the `Database.book` type here.
 
